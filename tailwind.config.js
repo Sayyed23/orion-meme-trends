@@ -1,0 +1,1 @@
+/** @type {import('tailwindcss').Config} */\nexport default {\n  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],\n  darkMode: 'class',\n  theme: {\n    extend: {\n      fontFamily: {\n        sans: ['Inter var', 'sans-serif'],\n      },\n      animation: {\n        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',\n      },\n    },\n  },\n  plugins: [],\n}
